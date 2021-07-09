@@ -65,3 +65,8 @@ This homework is graded based on the following criteria:
 You are required to submit the following for review:
 * The URL of the deployed application
 * The URL of the GitHub repository, with a unique name and a README describing the project
+
+## Deployed Application
+ https://lapshaffer.github.io/ShafferWorkDayScheduler/
+
+ ![WorkdaySchedulerScreenshot] (WorkdaySchedulerScreenshot.jpg)
