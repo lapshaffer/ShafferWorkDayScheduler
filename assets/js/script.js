@@ -1,13 +1,6 @@
 // TO-DO:
-// Insert "time blocks" for each working hour of the day (let's say 8am to 6pm)
-    // The empty time blocks are set in the HTML
-    // Each time block needs to have an hour assigned to it
-    // Based on the hour assigned and the current hour in real-time, the block must change color
-        // If block asking if current hour is equal to the set hour to determine block color
-    // The blocks must be able to take an input and have that input saved to local storage
 // Extra: Do I want local storage to empty at midnight so each day has a clean slate?
     // 07/08/2021- Just got the JS working, so I may go back later and have the local storage wipe at midnight!
-
 
 // This is the code for the live clock
 // Use Moment to display the current date and time at the top of the page, within the jumbotron
@@ -38,7 +31,7 @@ saveBtn.forEach(function(node) {
         localStorage.setItem(time, description);
 
     })
-})
+});
 
 // Writing the local storage to the textArea if there is a description in local storage 
 $("#hour8 .description").val(localStorage.getItem("hour8"));
@@ -53,10 +46,11 @@ $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
 $("#hour18 .description").val(localStorage.getItem("hour18"));
 
+// function to change the color of each timeblock depending on the current hour
 function colorChange() {
     // for each timeblock, run this function
     $(".time-block").each(function () {
-        // read the id of each timeblock remove the "hour" and return the number to the variable
+        // read the id of each timeblock, remove the "hour" and return the number to the variable
         var blockTime = parseInt($(this).attr("id").split("hour")[1]);
         // If the number of the timeblock is before the current hour
         if (blockTime < currentHour) {
