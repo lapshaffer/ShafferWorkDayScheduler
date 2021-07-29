@@ -31,3 +31,7 @@ THEN the saved events persist
  https://lapshaffer.github.io/ShafferWorkDayScheduler/
 
  ![WorkdaySchedulerScreenshot] (WorkdaySchedulerScreenshot.jpg)
+ 
+ ## Contact the Developer
+ lapshaffer@gmail.com
+ https://www.linkedin.com/in/lisa-shaffer-b29066198/
