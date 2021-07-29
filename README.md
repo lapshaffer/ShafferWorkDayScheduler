@@ -1,5 +1,5 @@
 # ShafferWorkDayScheduler
-This is a day planner, written using HTML, CSS and Javascript, designed to help the user schedule their day. The user is able to enter and save planned activites that persist across sessions. The user is shown which hours are passed, current or upcoming by the color-coded timeblocks. The current local date and time are displayed at the top of the page using Moment.
+This is a day planner, written using HTML, CSS and JavaScript, designed to help the user schedule their day. The user is able to enter and save planned activites that persist across sessions. The user is shown which hours are passed, current or upcoming by the color-coded timeblocks. The current local date and time are displayed at the top of the page using Moment.
 
 ## User Story
 
